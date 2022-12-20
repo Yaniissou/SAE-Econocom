@@ -59,7 +59,7 @@ div{
 }
 
 div:hover{
-    transform: scale(110%);
+    transform: scale(120%);
     transition: all .4s ease;
 
 }
