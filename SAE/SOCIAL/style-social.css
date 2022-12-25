@@ -4,3 +4,88 @@
     
 }
 
+body{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+
+
+/* HEADER */
+header{
+    height: 75px;
+    background-color: #874dbd;
+    margin-bottom: 200px;
+}
+
+
+header ul{
+    list-style-type: none;
+
+
+    display: flex;
+    justify-content: space-around;
+    
+
+    margin: 0px;
+    padding: 0px;
+}
+
+
+header a{
+    color: white;
+    text-decoration: none;
+}
+
+
+header a:visited{
+    color: white;
+    text-decoration:none;
+}
+
+
+header img{
+    width: 145.7px;
+    height: 14px;
+    filter: brightness(0) invert(1);
+}
+
+/* MAIN */
+
+main{
+    display: flex;
+    justify-content: space-around;
+}
+
+div{
+    background-color: #874dbd;
+    width: 500px;
+    height: 600px;
+    box-sizing: border-box;
+}
+
+div:hover{
+    transform: scale(110%);
+    transition: all .4s ease;
+
+}
+
+
+div{ 
+    transition: all .4s ease;                   /*Permet une transition smooth quand on quitte le hover */
+    box-shadow: 1px 7px 36px -11px #000000;
+}
+
+/* Séléctionner les div qui ont un frère qui est hover  */
+/* Séléctionnes les frères de la div qui est hover
+
+Ici, les frères sont uniquement les frères qui suivent la div (cf. CSS : Cascade Style*/
+
+div:has(~div:hover), div:hover ~ div{    
+    transform: scale(90%);
+}
+
+
+
+
+
