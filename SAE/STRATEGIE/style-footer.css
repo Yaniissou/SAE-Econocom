@@ -1,0 +1,48 @@
+footer{
+    background-color: #874dbd;
+    padding: 15px;
+}
+
+footer div{
+    display: flex;
+    flex-direction: column;
+}
+
+.footertitle{
+    display: flex;
+    background-color: #b566ff;
+    width: 150px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+iframe{
+    display: flex;
+    height: 200px;
+    width: 280px;
+    margin-right: 50px;
+    border-radius: 10px;
+}
+
+.structure{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.infos{
+background-color: #b566ff;
+padding: 20px;
+border-radius: 10px;
+}
+
+footer li a{
+    color: white;
+    text-decoration:underline;
+}
+
+footer li a:visited{
+        color: white;
+        text-decoration:underline;
+}
