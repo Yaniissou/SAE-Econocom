@@ -16,7 +16,6 @@ A web project realized for school at IUT2 UGA
 | Header | #8140be |
 | Footer | #874dbd |
 | Footer Text | #a971dd |
-| Example Color | #00d1a0 |
 
 
 ## Used By
