@@ -2,3 +2,138 @@
     background-color: #8140be;
     transform: scale(115%);
 }
+
+body {
+    background-image: url(../IMAGES/abstract-paint-pastel-purple-background-free-vector.png);
+    background-size: cover;
+}
+
+.titre {
+    
+    background-color:rgba(169, 113, 221, 0.6); 
+    width: 40%;
+    margin: 3% auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 120px;
+   font-size: x-large;
+   text-transform: uppercase;
+}
+
+main {
+    width: 90%;
+    display: flex;
+    margin: auto;
+    margin-bottom: 3%;
+    flex-wrap: wrap;
+
+    
+}
+
+main h2 {
+    text-transform: uppercase;
+    font-size: xx-large;
+}
+
+.domaine {
+    width: 40%;
+    margin-right: 2%;
+    background-color:rgba(169, 113, 221, 0.6);  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.domaine p {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+section {
+    width: 56%;
+    margin-left: 2%;
+
+}
+
+section p {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.geo {
+    background-color: rgba(169, 113, 221, 0.6); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3%;
+    height: 400px;
+
+    
+}
+
+.geo img {
+    width: 400px;
+    height: 290px;
+}
+
+.geo .content {
+    display: flex;
+    justify-content: row;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+
+.geo p {
+    text-align: center;
+    margin-right: 2%;
+}
+
+.cibles {
+    background-color: rgba(169, 113, 221, 0.6); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.contenu {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.contenu img {
+    width: 250px;
+    height: 150px;
+    margin-left: 2%;
+}
+
+.contenu ul {
+    text-align: justify;
+}
+
+.edu, .indus, .medic {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2%;
+    justify-content: center;
+}
+
+.edu {
+    height: 150px;
+}
+.contenu span {
+    font-weight: bold;
+}
+
+.contenu ul {
+    width: 50%;
+}
+
+main p, main ul{
+    font-size: 20px;
+}
