@@ -8,7 +8,7 @@ body {
 }
 
 header {
-  overflow: hidden;
+  
   background-color: #874dbd;
   padding: 15px 0px;
   display: flex;
@@ -19,16 +19,17 @@ header {
 }
 
 header a {
-  float: left;
+ 
   color: #FFF;
   text-align: center;
   padding: 12px;
   text-decoration: none;
   font-size: 18px; 
-  line-height: 25px;
+  
   border-radius: 15px;
   transition: all 0.3s ease-in;
 }
+
 
 
 header a:hover {

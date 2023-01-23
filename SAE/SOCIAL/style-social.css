@@ -59,9 +59,9 @@ Ici, les frères sont uniquement les frères qui suivent la div (cf. CSS : Casca
 
 /* Équivalent de div:has(~div:hover), div:hover ~ div */
 /*.rect1:hover, .rect2:hover, .rect3:hover:has(~.rect1:hover, .rect2:hover, .rect3:hover:hover), .rect1:hover, .rect2:hover, .rect3:hover:hover ~ div{  */
-    main div:has(~main div:hover),  main div:hover ~ div{
+/*    main div:has(~main div:hover),  main div:hover ~ div{
     transform: scale(90%);
-}
+}*/
 
 
 /* FOOTER */
