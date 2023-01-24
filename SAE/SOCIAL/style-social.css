@@ -45,7 +45,7 @@ main{
     display: flex;
     flex-direction: column;
     transition: all .4s ease;                   /*Permet une transition smooth quand on quitte le hover */
-    box-shadow: 1px 7px 36px -11px #000000;
+    box-shadow: 8.0px 16.0px 16.0px hsl(0deg 0% 0% / 0.25);
 }
 
 .rect1:hover, .rect2:hover, .rect3:hover{
