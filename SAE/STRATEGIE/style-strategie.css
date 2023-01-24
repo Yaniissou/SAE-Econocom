@@ -19,6 +19,8 @@ body {
    height: 120px;
    font-size: x-large;
    text-transform: uppercase;
+   text-align: center;
+   box-shadow: 8.0px 16.0px 16.0px hsl(0deg 0% 0% / 0.25);
 }
 
 main {
@@ -43,24 +45,39 @@ main h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+    justify-content: space-evenly;
+    box-shadow: 8.0px 16.0px 16.0px hsl(0deg 0% 0% / 0.25);
 }
+
 
 .domaine p {
     width: 90%;
     margin: 0 auto;
+    text-align: justify;
 }
 
+.domaine span {
+    font-weight: 600;
+}
+
+.domaine ul li {
+    padding-bottom: 1%;
+}
 
 section {
     width: 56%;
     margin-left: 2%;
-
 }
 
 section p {
     width: 90%;
     margin: 0 auto;
+}
+
+
+.domaine img {
+    margin-bottom:5%;
+    width: 90%;
 }
 
 .geo {
@@ -70,26 +87,34 @@ section p {
     align-items: center;
     margin-bottom: 3%;
     height: 400px;
+    box-shadow: 8.0px 16.0px 16.0px hsl(0deg 0% 0% / 0.25);
 
-    
 }
 
 .geo img {
-    width: 400px;
-    height: 290px;
+    width: 100%;
+    height: 280px;
+    margin-left: 5%;
+    transition: all 0.3s ease-in;
+    
+}
+
+.geo img:hover {
+    filter: brightness(80%);
+    border-radius: 0% 0% 50% 50% / 0% 0% 5% 5% ;
+  box-shadow: 10px 10px rgba(0,0,0,.25);
 }
 
 .geo .content {
     display: flex;
     justify-content: row;
-    justify-content: center;
     align-items: center;
     width: 90%;
 }
 
 .geo p {
-    text-align: center;
-    margin-right: 2%;
+    text-align: justify;
+     width: 60%;
 }
 
 .cibles {
@@ -97,6 +122,7 @@ section p {
     display: flex;
     flex-direction: column;
     align-items: center;
+    box-shadow: 8.0px 16.0px 16.0px hsl(0deg 0% 0% / 0.25);
 
 }
 
@@ -107,9 +133,9 @@ section p {
 }
 
 .contenu img {
-    width: 250px;
+    width: 25%;
     height: 150px;
-    margin-left: 2%;
+    
 }
 
 .contenu ul {
@@ -120,7 +146,7 @@ section p {
     display: flex;
     align-items: center;
     margin-bottom: 2%;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .edu {
@@ -134,6 +160,125 @@ section p {
     width: 50%;
 }
 
+
 main p, main ul{
     font-size: 20px;
 }
+
+@media screen and (max-width: 1400px) {
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+
+    .domaine {
+        display: flex;
+        width: 100%;
+        margin-bottom: 2%;
+        margin-right: 0;
+    }
+
+    .geo {
+        width: 100%;
+        margin-bottom: 4%;
+        height: 500px;
+        
+    }
+
+    .geo img {
+        margin-left: 0%;
+        margin-top: 5%;
+        
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .content p {
+        width: 100%;
+    }
+
+   .contenu {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+   }
+
+   .cibles {
+    margin-bottom: 4%;
+    height: 800px;
+    
+   }
+
+   main p, main ul{
+    font-size: 15px;
+}
+
+.contenu img {
+    width: 25%;
+    height: 150px;
+    
+}
+
+.edu, .indus, .medic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2%;
+    justify-content: space-around;
+}
+
+.contenu p, .contenu ul {
+    width: 90%;
+}
+
+section {
+    width: 100%;
+    margin-left: 0;
+    
+}
+
+
+}
+
+@media screen and (max-width: 880px) {
+
+
+    .titre {
+        font-size: large;
+        width: 60%;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+
+
+    .edu, .indus, .medic {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 4%;
+        justify-content: space-around;
+    }
+
+    .contenu img {
+        width: 35%;
+        height: 100px;
+        
+    }
+
+}
+
+
+   
+

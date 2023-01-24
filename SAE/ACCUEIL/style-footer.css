@@ -5,14 +5,15 @@ footer {
     flex-wrap: wrap;
 }
 
-footer img {
+footer iframe {
     width: 404px;
     height:255px ;
     transition: all .4s ease;
 }
 
-footer img:hover {
-    filter: brightness(50%);
+footer iframe:hover {
+    filter: brightness(90%);
+    
     border-radius: 0% 0% 50% 50% / 0% 0% 5% 5% ;
   box-shadow: 10px 10px rgba(0,0,0,.25);
 }
