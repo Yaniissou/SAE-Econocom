@@ -1,3 +1,5 @@
+/*Par Yanis et Gabriel */
+
 footer {
     height: 400px;
     background-color: #874dbd;
@@ -13,6 +15,7 @@ footer iframe {
 
 footer iframe:hover {
     filter: brightness(90%);
+    
     border-radius: 0% 0% 50% 50% / 0% 0% 5% 5% ;
   box-shadow: 10px 10px rgba(0,0,0,.25);
 }

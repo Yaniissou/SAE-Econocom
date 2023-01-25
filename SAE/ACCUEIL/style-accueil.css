@@ -1,3 +1,5 @@
+/*Par Gabriel*/
+
 .logo {
     background-color: #8140be;
     transform: scale(115%);
@@ -17,6 +19,7 @@ section {
     height: 230px;
     background-color: rgba(169, 113, 221, 0.6);
     box-shadow: 8.0px 16.0px 16.0px hsl(0deg 0% 0% / 0.25);
+    flex-wrap: wrap;
     
 }
 
