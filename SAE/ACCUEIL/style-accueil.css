@@ -8,7 +8,7 @@
 body {
     background-image: url(../IMAGES/abstract-paint-pastel-purple-background-free-vector.png);
     background-size: cover;
-    font-family: 'Poppins', sans-serif;
+    font-family: sans-serif, 'Poppins';
     
 }
 
@@ -160,8 +160,9 @@ aside img {
 
 .avantages p {
     width: 90%;
-    text-align: center;
+    text-align: justify;
     font-size: 20px;
+    margin: 0 auto;
     
 }
 
@@ -184,7 +185,7 @@ aside img {
     align-items: center;
     width: 100%;
     text-align: center;
-    text-shadow: 0px 11px 10px rgba(0,0,0,0.8);
+    
 }
 
 
@@ -333,4 +334,5 @@ section p {
     }
 
 }
+
 
