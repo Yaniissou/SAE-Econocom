@@ -1,5 +1,6 @@
 /*Par Gabriel*/
 
+
 .logo {
     background-color: #8140be;
     transform: scale(115%);
@@ -7,6 +8,7 @@
 body {
     background-image: url(../IMAGES/abstract-paint-pastel-purple-background-free-vector.png);
     background-size: cover;
+    font-family: 'Poppins', sans-serif;
     
 }
 
@@ -30,6 +32,7 @@ section h1 {
     font-weight: bold;
     letter-spacing: 1px;
     margin: 0;
+
 }
 
 section p {
