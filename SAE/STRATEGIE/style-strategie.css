@@ -168,6 +168,10 @@ main p, main ul{
     font-size: 20px;
 }
 
+.intervention {
+    padding-top: 3%;
+    padding-left: 3%;
+}
 @media screen and (max-width: 1400px) {
 
     main {
