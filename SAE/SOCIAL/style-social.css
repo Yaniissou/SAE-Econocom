@@ -58,6 +58,7 @@ main{
 .rect1 h2, .rect2 h2, .rect3 h2{
     display: flex;
     justify-content: center;
+    text-transform: uppercase;
 }
 
 .rect1 p, .rect2 p, .rect3 p{
