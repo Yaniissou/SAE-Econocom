@@ -8,6 +8,7 @@
 body {
     background-image: url(../IMAGES/abstract-paint-pastel-purple-background-free-vector.png);
     background-size: cover;
+    font-family: 'Poppins', sans-serif;
 }
 
 .titre {
@@ -271,6 +272,14 @@ section {
         align-items: center;
         margin-bottom: 4%;
         justify-content: space-around;
+    }
+
+    .indus {
+        margin-top: 10%;
+    }
+
+    .geo img {
+        height: 200px ;
     }
 
     .contenu img {
