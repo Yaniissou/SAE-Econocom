@@ -74,7 +74,9 @@ transition: all .4s ease;
 border-radius: 10px;
 }
 
-.rect1 img:hover, .rect2 img:hover, .rect3 img:hover{
+
+
+.rect1:hover img, .rect2:hover img, .rect3:hover img{
     filter: blur(0px);
     transition: all .4s ease; 
 }
